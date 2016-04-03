@@ -35,6 +35,29 @@ svg {
   stroke-dasharray: 0, 480;
 }
 
-.btn-click {
+.btn-click path:nth-child(2) {
   fill: orange;
+  transition: all .5s linear;
+}
+
+.add-lines {
+  animation: draw 1s forwards;
+
+}
+
+@keyframes draw {
+
+  0% {
+
+    stroke-dasharray: 0, 480;
+  }
+
+  100% {
+
+    stroke-dasharray: 480, 480;
+  }
+}
+
+.word-change {
+
 }
