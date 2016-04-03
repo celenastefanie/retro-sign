@@ -34,3 +34,7 @@ svg {
 .lines path {
   stroke-dasharray: 0, 480;
 }
+
+.btn-click {
+  fill: orange;
+}
